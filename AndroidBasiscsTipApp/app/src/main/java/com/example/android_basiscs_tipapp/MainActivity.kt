@@ -20,7 +20,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.calculateButton.setOnClickListener { calculateTip() }
-        binding.costOfServiceEditText.setOnKeyListener { view, keyCode, _ -> handleKeyEvent(view, keyCode)
+
+        //on this view when a key is pressed
+        binding.costOfServiceEditText.setOnKeyListener { view, keyCode, _ ->
+            handleKeyEvent(view, keyCode)
         }
     }
 
@@ -55,12 +58,12 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun handleKeyEvent(view: View, keyCode: Int): Boolean{
-        if(keyCode == KeyEvent.KEYCODE_ENTER){
+    private fun handleKeyEvent(view: View, keyCode: Int): Boolean {
+        if (keyCode == KeyEvent.KEYCODE_ENTER) {
             //hide the keyboard
             val inputMethodManager =
                 getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            inputMethodManager.hideSoftInputFromWindow(view.windowToken,0)
+            inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
             return true
         }
         return false
