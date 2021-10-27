@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loginbackground">loginBackground</string>
+    <string name="merhabalar">Merhabalar</string>
+    <string name="password">Password</string>
+    <string name="secondbackground">secondBackground</string>
+    <string name="neler_rendik">Neler Öğrendik?</string>
+    <string name="kotlin_temelleri">Kotlin Temelleri</string>
+    <string name="layouts">Layouts</string>
+    <string name="collections">Collections</string>
+    <string name="button">Button</string>
+    <string name="thirdbackground">thirdBackground</string>
+</resources>

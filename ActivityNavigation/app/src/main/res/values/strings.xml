@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ActivityNavigation</string>
+    <string name="loginbackground">loginBackground</string>
+    <string name="merhabalar">Merhabalar</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="button">Giriş Yap</string>
+    <string name="button2">Devam</string>
+    <string name="button3">Başa Dön</string>
+    <string name="secondbackground">secondBackground</string>
+    <string name="neler_rendik">Neler Öğrendik?</string>
+    <string name="kotlin_temelleri">Kotlin Temelleri</string>
+    <string name="layouts">Layouts</string>
+    <string name="collections">Collections</string>
+    <string name="thirdbackground">thirdBackground</string>
+    <string name="sonraki_derste">Sonraki Derste</string>
+    <string name="fragments">Fragments</string>
+    <string name="navigation_component">Navigation Component</string>
+
+</resources>
